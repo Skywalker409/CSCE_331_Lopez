@@ -6,6 +6,15 @@ header{
     height: fit-content;
     color: white;
 }
+.Main{
+  background:url("photos/A&MCampus.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  margin: 0; 
+  padding: 0; 
+  font-family: Arial, sans-serif;
+}
 .circle {
     width: 400px ;
     height: 90px;
@@ -16,21 +25,55 @@ header{
     text-align: center;
     background: #7e6f6f
   }
+  .ProjectSection{
+    width: 400px;
+    height: 500px;
+    border-radius: 30%;
+    border: black;
+    border-width: 10px;
+    border-style: groove;
+    background-color: rgba(128, 0, 0, 0.453);
+
+    text-align: center;
+    text-shadow: 
+    2px 2px 0 #000, 
+    -2px -2px 0 #000, 
+    2px -2px 0 #000,
+    -2px 2px 0 #000;     -webkit-text-fill-color: white;
+
+  }
   .section{
     width: 400px;
     height: 500px;
     border-radius: 30%;
-    background: maroon;
     border: black;
+    border-width: 10px;
+    border-style: groove;
+    background-color: rgba(128, 0, 0, 0.453);
+
     text-align: center;
+    text-shadow: 
+    2px 2px 0 #000, 
+    -2px -2px 0 #000, 
+    2px -2px 0 #000,
+    -2px 2px 0 #000;     -webkit-text-fill-color: white;
 
   }
   .BottomSection{
-    width: flex;
-    height: 500px;
+    width: fit-content;
+    height: fit-content;
     border-radius: 30%;
-    background: maroon;
     border: black;
+    background-color: rgba(128, 0, 0, 0.453);
+    border-width: 10px;
+    border-style: groove;
     text-align: center;
-
+    text-shadow: 
+    2px 2px 0 #000, 
+    -2px -2px 0 #000, 
+    2px -2px 0 #000,
+    -2px 2px 0 #000;     -webkit-text-fill-color: white;
+  }
+  a:visited{
+    color: white
   }

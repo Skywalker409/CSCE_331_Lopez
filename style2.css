@@ -1,3 +1,83 @@
-.circle{
-    background-color: white;
+header{
+    background-color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: flex;
+    height: fit-content;
+    color: rgba(0, 0, 255, 0.393);
 }
+.Main{
+  background-color: rgba(0, 0, 0, 0.333);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  margin: 0; 
+  padding: 0; 
+  font-family: Arial, sans-serif;
+  background: url("photos/Backround.jpg");
+  background-attachment: fixed;
+  background-size:cover;
+  height: 150vh;
+}
+.circle {
+    width: fit-content ;
+    height: auto;
+    line-height: 90px;
+    font-size: 30px;
+    border-radius: 30%;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    background: rgba(0, 0, 139, 0.462);
+  }
+  .ProjectSection{
+    width: 400px;
+    height: 500px;
+    border-radius: 30%;
+    border: black;
+    border-width: 10px;
+    border-style: groove;
+    background-color: rgba(128, 0, 0, 0.453);
+    
+    text-align: center;
+    text-shadow: 
+    2px 2px 0 #000, 
+    -2px -2px 0 #000, 
+    2px -2px 0 #000,
+    -2px 2px 0 #000;     -webkit-text-fill-color: white;
+
+  }
+  .section{
+    width: 100px;
+    height: 200px;
+    border-radius: 0%;
+    border:rgba(0, 0, 139, 0.568);
+    border-width: 5px;
+    border-style:solid;
+    background-color:rgba(0, 0, 0, 0.451);
+
+    text-align: center;
+    text-shadow: 
+    2px 2px 0 #000, 
+    -2px -2px 0 #000, 
+    2px -2px 0 #000,
+    -2px 2px 0 #000;     -webkit-text-fill-color: white;
+
+  }
+  .BottomSection{
+    width: 500px ;
+    height: fit-content;
+    border-radius: 10%;
+    border: rgba(0, 0, 139, 0.599);
+    background-color: rgba(0, 0, 0, 0.371);
+    border-width: 10px;
+    border-style: solid;
+    text-align: center;
+    text-size-adjust: 90%;
+    text-shadow: 
+    2px 2px 0 #000, 
+    -2px -2px 0 #000, 
+    2px -2px 0 #000,
+    -2px 2px 0 #000;     -webkit-text-fill-color: white;
+  }
+  a:visited{
+    color: white
+  }

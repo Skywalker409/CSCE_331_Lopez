@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <link id="theme-stylesheet" rel="stylesheet" href="style.css">
+    <script>    
+    if(localStorage.getItem("StyleChosen") != "style.css" && localStorage.getItem("StyleChosen") != "style2.css" ){
+        document.getElementById("theme-stylesheet").setAttribute("href" , "style.css");
+        console.log(localStorage.getItem("StyleChosen") + "If Statement 1");
+    }
+    else {document.getElementById("theme-stylesheet").setAttribute("href" , localStorage.getItem("StyleChosen") );
+    console.log(localStorage.getItem("StyleChosen") + "Else Statement 1");
+
+    }
+    </script>
     <div class = Main >
     <head>
     
@@ -16,7 +26,7 @@
             <th><a style = "text-decoration:  none; " href = "contactpage.html"><div class = circle> Contact/Information </div></a></th>
             <th>
                 
-                <button id="change-style-btn">Change Style</button>
+                <button id="change-style-btn" onclick="ChangeTheme()">Change Style</button>
             
                 <script src="script.js"></script>
             

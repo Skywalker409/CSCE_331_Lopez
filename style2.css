@@ -63,7 +63,7 @@ header{
 
   }
   .BottomSection{
-    width: 500px ;
+    width: 580px ;
     height: fit-content;
     border-radius: 10%;
     border: rgba(0, 0, 139, 0.599);
@@ -73,10 +73,10 @@ header{
     text-align: center;
     text-size-adjust: 90%;
     text-shadow: 
-    2px 2px 0 #000, 
-    -2px -2px 0 #000, 
-    2px -2px 0 #000,
-    -2px 2px 0 #000;     -webkit-text-fill-color: white;
+    1px 1px 0 #000, 
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000;     -webkit-text-fill-color: white;
   }
   a:visited{
     color: white
